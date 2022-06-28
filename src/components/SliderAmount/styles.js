@@ -17,9 +17,28 @@ const Wrapper = styled.div`
 		color: white;
 		border: 1px solid white;
 		padding: 3px 0;
+		@media (max-width: 560px) {
+			width: 100px;
+			font-size: 18px;
+		}
 	}
 	.slider-input:focus {
 		outline: none;
+	}
+	.rc-slider-handle:focus-visible {
+		box-shadow: 0 0 0 3px white !important;
+	}
+	.rc-slider-track {
+		background-color: white;
+	}
+	.rc-slider-handle {
+		background-color: white;
+		border: solid 2px white;
+		opacity: 1;
+	}
+	.rc-slider-handle-dragging {
+		border-color: white !important;
+		box-shadow: 0 0 0 5px white !important;
 	}
 `;
 
