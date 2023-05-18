@@ -1,3 +1,3 @@
 # DigBang
 
-www.dig-bang.vercel.app/
+https://dig-bang-franstagno.vercel.app
